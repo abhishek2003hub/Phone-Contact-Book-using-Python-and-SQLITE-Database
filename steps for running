@@ -1,0 +1,10 @@
+Install Visual Studio Code: If you haven’t already, download and install Visual Studio Code from the official website.
+Install Python: Make sure you have Python installed on your machine. You can download it from the official Python website.
+Open Visual Studio Code: Launch the application.
+Create a new file: Click on File > New File (or press Ctrl+N) to create a new file.
+Paste the code: Copy the Python script provided earlier and paste it into the new file.
+Save the file: Click on File > Save (or press Ctrl+S) and save the file with a .py extension, for example, contact_book.py.
+Run the code: To run the code, you can right-click anywhere in the file and select Run Python File in Terminal. This will open a terminal at the bottom of the window and run the script.
+This will create a SQLite database named contact_book.db in the same directory where the script is run. The database will have a table named contacts with the fields ID, Name, Cell, and Email. It will insert 5 rows of data into the contacts table and then fetch and display all the data in the table.
+
+Please note that SQLite comes pre-installed with Python, so you don’t need to install any additional packages to run this script.
